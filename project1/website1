@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Book Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #4A90E2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .container {
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .book {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 200px;
+      margin: 10px;
+      padding: 15px;
+      text-align: center;
+    }
+    .book img {
+      width: 100px;
+      height: 150px;
+    }
+    footer {
+      background-color: #4A90E2;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Book Haven</h1>
+    <p>Your favorite place to find books</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Categories</a>
+    <a href="#">Best Sellers</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="book">
+      <img src="https://via.placeholder.com/100x150" alt="Book 1">
+      <h3>Book Title One</h3>
+      <p>Author: John Doe</p>
+      <p>Price: ₹399</p>
+    </div>
+    <div class="book">
+      <img src="https://via.placeholder.com/100x150" alt="Book 2">
+      <h3>Book Title Two</h3>
+      <p>Author: Jane Smith</p>
+      <p>Price: ₹499</p>
+    </div>
+    <div class="book">
+      <img src="https://via.placeholder.com/100x150" alt="Book 3">
+      <h3>Book Title Three</h3>
+      <p>Author: Rahul Sharma</p>
+      <p>Price: ₹299</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Book Haven. All rights reserved.
+  </footer>
+
+</body>
+</html>
+
